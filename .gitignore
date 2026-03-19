@@ -1,0 +1,14 @@
+# 绝对不能进 git 的文件
+.env                        # 真实密钥
+logs/
+__pycache__/
+*.pyc
+.DS_Store
+
+# 模型缓存（体积巨大）
+~/.cache/huggingface/
+
+# NLP 原始文件（体积大，从 SEC 重新下载即可）
+nlp/raw_filings/
+nlp/clean_text/
+nlp/sentiment_signals/

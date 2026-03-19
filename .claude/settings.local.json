@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -m pip show sec-edgar-downloader)",
+      "Bash(python -c \"import sec_edgar_downloader; help\\(sec_edgar_downloader.Downloader.__init__\\)\")",
+      "Bash(python -m nlp.finbert_scorer)",
+      "Bash(python -m pip install boto3 streamlit plotly scipy)"
+    ]
+  }
+}
